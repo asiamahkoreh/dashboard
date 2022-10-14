@@ -197,6 +197,7 @@ a {
 .card {
     border-left: 8px solid yellow;
     position: relative;
+    height: 15rem;
 }
 
 .card, .announcements, .trending {
@@ -207,10 +208,14 @@ a {
     border-radius: 1rem;
 }
 
+.card p {
+    padding-bottom: 1.5rem;
+}
+
 .card-icons {
     position: absolute;
     left: 11rem;
-    top: 9.2rem;
+    top: 13rem;
 }
 
 .announcement-container {
